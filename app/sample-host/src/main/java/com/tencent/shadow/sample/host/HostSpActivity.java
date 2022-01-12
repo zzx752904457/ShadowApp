@@ -59,7 +59,7 @@ public class HostSpActivity extends Activity {
 
     private void loadPluginSp() {
         HostContainerHolder.mmkvInstances.put(CommonConstants.PREF_KEY_PLUG_CITY, value -> {
-            Toast.makeText(HostSpActivity.this, value.toString(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(HostSpActivity.this, "这是插件的sp：" + value.toString(), Toast.LENGTH_SHORT).show();
         });
         // 当是单进程时，可以直接使用主进程的manager对象
         Bundle bundle = new Bundle();

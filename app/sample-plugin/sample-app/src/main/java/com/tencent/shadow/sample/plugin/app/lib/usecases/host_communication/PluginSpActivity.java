@@ -21,7 +21,7 @@ public class PluginSpActivity extends Activity {
         HostInfoProvider hostUiLayerProvider = HostInfoProvider.getInstance();
         String city = hostUiLayerProvider.getHostMMKVStringValue(CommonConstants.PREF_KEY_CITY);
         TextView tvName = findViewById(R.id.tv_city_name);
-        tvName.setText(city);
+        tvName.setText("这是宿主的sp：" + city);
 
         EditText etSp = findViewById(R.id.et_sp);
         Button btnSave = findViewById(R.id.btn_save_sp);
