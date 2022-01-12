@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.COMPILE_SDK_VERSION
+}
+
+def sdkPath = android.sdkComponents.getSdkDirectory().get().asFile.absolutePath
+def androidJarPath = new File(sdkPath, "platforms/${android.compileSdkVersion}/android.jar")
+
+ext.set('androidJarPath', androidJarPath)

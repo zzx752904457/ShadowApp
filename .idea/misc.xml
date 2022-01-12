@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/sample-host-lib/src/main/res/layout/host_ui_layer_layout.xml" value="0.296195652173913" />
+        <entry key="app/sample-host/src/main/res/layout/activity_ap.xml" value="0.36822916666666666" />
+        <entry key="app/sample-host/src/main/res/layout/activity_host_get_plugin_fragment.xml" value="0.3338541666666667" />
+        <entry key="app/sample-host/src/main/res/layout/activity_load.xml" value="0.296195652173913" />
+        <entry key="app/sample-host/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />
+        <entry key="app/sample-host/src/main/res/layout/activity_sp.xml" value="0.27807971014492755" />
+        <entry key="app/sample-manager/src/main/res/layout/activity_load_plugin.xml" value="0.296195652173913" />
+        <entry key="app/sample-manager/src/main/res/layout/fragment_manager.xml" value="0.296195652173913" />
+        <entry key="app/sample-plugin/sample-app/src/main/res/layout/activity_plugin_event_bus.xml" value="0.27807971014492755" />
+        <entry key="app/sample-plugin/sample-app/src/main/res/layout/activity_plugin_sp.xml" value="0.22" />
+        <entry key="app/sample-plugin/sample-app/src/main/res/layout/fragment_manager.xml" value="0.3338541666666667" />
+        <entry key="app/sample-plugin/sample-app/src/main/res/layout/layout_host_add_plugin_view.xml" value="0.296195652173913" />
+        <entry key="app/sample-plugin/sample-base-lib/src/main/res/layout/layout_splash.xml" value="0.3338541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

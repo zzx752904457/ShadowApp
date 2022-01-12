@@ -1,0 +1,832 @@
+
+> Configure project :coding
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+
+> Task :coding:common-jar-settings:compileKotlin UP-TO-DATE
+> Task :coding:common-jar-settings:compileJava NO-SOURCE
+> Task :coding:common-jar-settings:pluginDescriptors UP-TO-DATE
+> Task :coding:common-jar-settings:processResources UP-TO-DATE
+> Task :coding:common-jar-settings:classes UP-TO-DATE
+> Task :coding:common-jar-settings:inspectClassesForKotlinIC UP-TO-DATE
+> Task :coding:common-jar-settings:jar UP-TO-DATE
+> Task :coding:android-jar:compileJava NO-SOURCE
+> Task :coding:android-jar:processResources NO-SOURCE
+> Task :coding:android-jar:classes UP-TO-DATE
+> Task :coding:android-jar:jar UP-TO-DATE
+> Task :coding:code-generator:compileKotlin UP-TO-DATE
+> Task :coding:code-generator:compileJava NO-SOURCE
+> Task :coding:code-generator:processResources NO-SOURCE
+> Task :coding:code-generator:classes UP-TO-DATE
+> Task :coding:code-generator:inspectClassesForKotlinIC UP-TO-DATE
+> Task :coding:code-generator:jar UP-TO-DATE
+
+> Configure project :core
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+
+> Configure project :dynamic
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+
+> Task :coding:aar-to-jar-plugin:compileKotlin UP-TO-DATE
+> Task :coding:aar-to-jar-plugin:compileJava NO-SOURCE
+> Task :coding:aar-to-jar-plugin:pluginDescriptors UP-TO-DATE
+> Task :coding:aar-to-jar-plugin:processResources UP-TO-DATE
+> Task :coding:aar-to-jar-plugin:classes UP-TO-DATE
+> Task :coding:aar-to-jar-plugin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :coding:aar-to-jar-plugin:jar UP-TO-DATE
+
+> Configure project :
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+
+> Task :core:activity-container:generateCode UP-TO-DATE
+> Task :coding:java-build-config:generateCode UP-TO-DATE
+> Task :core:runtime:generateCode UP-TO-DATE
+> Task :core:manifest-parser:processResources NO-SOURCE
+> Task :coding:java-build-config:compileJava UP-TO-DATE
+> Task :coding:java-build-config:processResources NO-SOURCE
+> Task :coding:java-build-config:classes UP-TO-DATE
+> Task :coding:java-build-config:jar UP-TO-DATE
+> Task :core:transform-kit:compileKotlin UP-TO-DATE
+> Task :core:transform-kit:compileJava UP-TO-DATE
+> Task :core:transform-kit:processResources NO-SOURCE
+> Task :core:transform-kit:classes UP-TO-DATE
+> Task :core:transform-kit:inspectClassesForKotlinIC UP-TO-DATE
+> Task :core:transform-kit:jar UP-TO-DATE
+> Task :core:transform:compileKotlin UP-TO-DATE
+> Task :core:transform:compileJava NO-SOURCE
+> Task :core:transform:processResources NO-SOURCE
+> Task :core:transform:classes UP-TO-DATE
+> Task :core:transform:inspectClassesForKotlinIC UP-TO-DATE
+> Task :core:transform:jar UP-TO-DATE
+> Task :core:gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :core:gradle-plugin:processResources UP-TO-DATE
+> Task :core:runtime:processResources NO-SOURCE
+> Task :core:activity-container:processResources NO-SOURCE
+> Task :core:activity-container:compileJava UP-TO-DATE
+> Task :core:runtime:compileJava UP-TO-DATE
+> Task :core:manifest-parser:compileKotlin UP-TO-DATE
+> Task :core:manifest-parser:compileJava NO-SOURCE
+> Task :core:manifest-parser:classes UP-TO-DATE
+> Task :core:manifest-parser:inspectClassesForKotlinIC UP-TO-DATE
+> Task :core:manifest-parser:jar UP-TO-DATE
+> Task :core:gradle-plugin:compileKotlin UP-TO-DATE
+> Task :core:gradle-plugin:compileJava NO-SOURCE
+> Task :core:gradle-plugin:classes UP-TO-DATE
+> Task :core:gradle-plugin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :core:gradle-plugin:jar UP-TO-DATE
+> Task :core:runtime:classes UP-TO-DATE
+> Task :core:runtime:jar UP-TO-DATE
+> Task :core:activity-container:classes UP-TO-DATE
+> Task :core:activity-container:jar UP-TO-DATE
+
+> Configure project :sample-app
+buildTypes = debug
+PackagePluginTask task run
+runtimeFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-runtime/build/outputs/apk/debug/sample-runtime-debug.apk
+loaderFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-loader/build/outputs/apk/debug/sample-loader-debug.apk
+pluginFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-app/build/outputs/apk/plugin/debug/sample-app-plugin-debug.apk
+pluginFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-app/build/outputs/apk/plugin/debug/sample-app-plugin-debug2.apk
+pluginFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-base/build/outputs/apk/plugin/debug/sample-base-plugin-debug.apk
+GenerateConfigTask task run
+runtime task = :sample-runtime:assembleDebug
+loader task = :sample-loader:assembleDebug
+pluginApkProjects task = :sample-app:assemblePluginDebug
+pluginApkProjects task = :sample-app:assemblePluginDebug
+pluginApkProjects task = :sample-base:assemblePluginDebug
+buildTypes = release
+PackagePluginTask task run
+runtimeFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-runtime/build/outputs/apk/release/sample-runtime-release.apk
+loaderFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-loader/build/outputs/apk/release/sample-loader-release.apk
+pluginFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-app/build/outputs/apk/plugin/release/sample-app-plugin-release.apk
+pluginFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-app/build/outputs/apk/plugin/release/sample-app-plugin-release2.apk
+pluginFile = /Users/zengzhaoxuan/AndroidStudioProjects/ShadowApp/app/sample-plugin/sample-base/build/outputs/apk/plugin/release/sample-base-plugin-release.apk
+GenerateConfigTask task run
+runtime task = :sample-runtime:assembleRelease
+loader task = :sample-loader:assembleRelease
+pluginApkProjects task = :sample-app:assemblePluginRelease
+pluginApkProjects task = :sample-app:assemblePluginRelease
+pluginApkProjects task = :sample-base:assemblePluginRelease
+
+> Task :sample-loader:dependencies
+
+------------------------------------------------------------
+Project ':sample-loader'
+------------------------------------------------------------
+
+androidApis - Configuration providing various types of Android JAR file
+No dependencies
+
+androidJacocoAnt - The Jacoco agent to use to get coverage data.
+\--- org.jacoco:org.jacoco.ant:0.8.3
+     +--- org.jacoco:org.jacoco.core:0.8.3
+     |    +--- org.ow2.asm:asm:7.0
+     |    +--- org.ow2.asm:asm-commons:7.0
+     |    |    +--- org.ow2.asm:asm:7.0
+     |    |    +--- org.ow2.asm:asm-tree:7.0
+     |    |    |    \--- org.ow2.asm:asm:7.0
+     |    |    \--- org.ow2.asm:asm-analysis:7.0
+     |    |         \--- org.ow2.asm:asm-tree:7.0 (*)
+     |    \--- org.ow2.asm:asm-tree:7.0 (*)
+     +--- org.jacoco:org.jacoco.report:0.8.3
+     |    \--- org.jacoco:org.jacoco.core:0.8.3 (*)
+     \--- org.jacoco:org.jacoco.agent:0.8.3
+
+androidJdkImage - Configuration providing JDK image for compiling Java 9+ sources
+No dependencies
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestReleaseAnnotationProcessor - Classpath for the annotation processor for 'androidTestRelease'. (n)
+No dependencies
+
+androidTestReleaseCompileOnly - Compile only dependencies for 'androidTestRelease' sources. (n)
+No dependencies
+
+androidTestReleaseImplementation - Implementation only dependencies for 'androidTestRelease' sources. (n)
+No dependencies
+
+androidTestReleaseRuntimeOnly - Runtime only dependencies for 'androidTestRelease' sources. (n)
+No dependencies
+
+androidTestReleaseWearApp - Link to a wear app to embed for object 'androidTestRelease'. (n)
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+archives - Configuration for archive artifacts. (n)
+No dependencies
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
++--- com.tencent.shadow.core:runtime (n)
++--- com.tencent.shadow.core:activity-container (n)
++--- com.tencent.shadow.core:common (n)
++--- com.tencent.shadow.dynamic:dynamic-host (n)
+\--- unspecified (n)
+
+coreLibraryDesugaring - Configuration to desugar libraries
+No dependencies
+
+debugAabPublication - Bundle Publication for debug (n)
+No dependencies
+
+debugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugAndroidTest
+No dependencies
+
+debugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: debugAndroidTest
++--- project :sample-loader (*)
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    \--- project :core:load-parameters
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+\--- project :sample-constant
+
+debugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: debugAndroidTest
+No dependencies
+
+debugAnnotationProcessor - Classpath for the annotation processor for 'debug'. (n)
+No dependencies
+
+debugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debug
+No dependencies
+
+debugApi - API dependencies for 'debug' sources. (n)
+No dependencies
+
+debugApiElements - API elements for debug (n)
+No dependencies
+
+debugApkPublication - APK publication for debug (n)
+No dependencies
+
+debugCompileClasspath - Resolved configuration for compilation for variant: debug
++--- com.tencent.shadow.core:runtime -> project :core:runtime
++--- com.tencent.shadow.core:activity-container -> project :core:activity-container
++--- com.tencent.shadow.core:common -> project :core:common
++--- com.tencent.shadow.dynamic:dynamic-host -> project :dynamic:dynamic-host
+|    \--- project :dynamic:dynamic-apk
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    \--- project :core:load-parameters
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+\--- project :sample-constant
+
+debugCompileOnly - Compile only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugImplementation - Implementation only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugReverseMetadataValues - Metadata Values dependencies for the base Split
+No dependencies
+
+debugRuntimeClasspath - Resolved configuration for runtime for variant: debug
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    +--- project :core:load-parameters
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31
+|    |         +--- org.jetbrains:annotations:13.0
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
+|    \--- com.tencent.shadow.coding:java-build-config -> project :coding:java-build-config
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31 (*)
+|    \--- com.tencent.shadow.core:loader -> project :core:loader (*)
+\--- project :sample-constant
+
+debugRuntimeElements - Runtime elements for debug (n)
+No dependencies
+
+debugRuntimeOnly - Runtime only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugUnitTest
+No dependencies
+
+debugUnitTestCompileClasspath - Resolved configuration for compilation for variant: debugUnitTest
++--- project :sample-loader (*)
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    \--- project :core:load-parameters
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+\--- project :sample-constant
+
+debugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: debugUnitTest
++--- project :sample-loader (*)
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    +--- project :core:load-parameters
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31
+|    |         +--- org.jetbrains:annotations:13.0
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
+|    \--- com.tencent.shadow.coding:java-build-config -> project :coding:java-build-config
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31 (*)
+|    \--- com.tencent.shadow.core:loader -> project :core:loader (*)
+\--- project :sample-constant
+
+debugWearApp - Link to a wear app to embed for object 'debug'. (n)
+No dependencies
+
+debugWearBundling - Resolved Configuration for wear app bundling for variant: debug
+No dependencies
+
+default - Configuration for default artifacts. (n)
+No dependencies
+
+implementation - Implementation only dependencies for 'main' sources. (n)
++--- com.tencent.shadow.core:loader (n)
++--- com.tencent.shadow.dynamic:dynamic-loader (n)
++--- com.tencent.shadow.dynamic:dynamic-loader-impl (n)
+\--- project sample-constant (n)
+
+lintChecks - Configuration to apply external lint check jar
+No dependencies
+
+lintClassPath - The lint embedded classpath
+\--- com.android.tools.lint:lint-gradle:30.0.3
+     +--- com.android.tools:sdk-common:30.0.3
+     |    +--- com.android.tools:sdklib:30.0.3
+     |    |    +--- com.android.tools.layoutlib:layoutlib-api:30.0.3
+     |    |    |    +--- com.android.tools:common:30.0.3
+     |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32
+     |    |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.32
+     |    |    |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32
+     |    |    |    |    |    |    \--- org.jetbrains:annotations:13.0
+     |    |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32
+     |    |    |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.32 (*)
+     |    |    |    |    +--- com.android.tools:annotations:30.0.3
+     |    |    |    |    \--- com.google.guava:guava:30.1-jre
+     |    |    |    |         +--- com.google.guava:failureaccess:1.0.1
+     |    |    |    |         +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+     |    |    |    |         +--- com.google.code.findbugs:jsr305:3.0.2
+     |    |    |    |         +--- org.checkerframework:checker-qual:3.5.0
+     |    |    |    |         +--- com.google.errorprone:error_prone_annotations:2.3.4
+     |    |    |    |         \--- com.google.j2objc:j2objc-annotations:1.3
+     |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+     |    |    |    +--- com.android.tools:annotations:30.0.3
+     |    |    |    \--- org.jetbrains:annotations:13.0
+     |    |    +--- com.android.tools:dvlib:30.0.3
+     |    |    |    \--- com.android.tools:common:30.0.3 (*)
+     |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    +--- com.google.code.gson:gson:2.8.6
+     |    |    +--- org.glassfish.jaxb:jaxb-runtime:2.3.2
+     |    |    |    +--- jakarta.xml.bind:jakarta.xml.bind-api:2.3.2
+     |    |    |    |    \--- jakarta.activation:jakarta.activation-api:1.2.1
+     |    |    |    +--- org.glassfish.jaxb:txw2:2.3.2
+     |    |    |    +--- com.sun.istack:istack-commons-runtime:3.0.8
+     |    |    |    |    \--- jakarta.activation:jakarta.activation-api:1.2.1
+     |    |    |    +--- org.jvnet.staxex:stax-ex:1.8.1
+     |    |    |    |    +--- jakarta.activation:jakarta.activation-api:1.2.1
+     |    |    |    |    \--- jakarta.xml.bind:jakarta.xml.bind-api:2.3.2 (*)
+     |    |    |    +--- com.sun.xml.fastinfoset:FastInfoset:1.2.16
+     |    |    |    \--- jakarta.activation:jakarta.activation-api:1.2.1
+     |    |    +--- org.apache.commons:commons-compress:1.20
+     |    |    +--- org.apache.httpcomponents:httpmime:4.5.6
+     |    |    |    \--- org.apache.httpcomponents:httpclient:4.5.6
+     |    |    |         +--- org.apache.httpcomponents:httpcore:4.4.10
+     |    |    |         +--- commons-logging:commons-logging:1.2
+     |    |    |         \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+     |    |    \--- com.android.tools:repository:30.0.3
+     |    |         +--- com.android.tools:common:30.0.3 (*)
+     |    |         +--- com.android.tools.analytics-library:shared:30.0.3
+     |    |         |    +--- com.android.tools:annotations:30.0.3
+     |    |         |    +--- com.android.tools:common:30.0.3 (*)
+     |    |         |    +--- com.google.guava:guava:30.1-jre (*)
+     |    |         |    +--- com.google.code.gson:gson:2.8.6
+     |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    |         |    +--- net.java.dev.jna:jna-platform:5.6.0
+     |    |         |    |    \--- net.java.dev.jna:jna:5.6.0
+     |    |         |    \--- com.android.tools.analytics-library:protos:30.0.3
+     |    |         |         \--- com.google.protobuf:protobuf-java:3.10.0
+     |    |         +--- com.sun.activation:javax.activation:1.2.0
+     |    |         +--- org.apache.commons:commons-compress:1.20
+     |    |         +--- org.glassfish.jaxb:jaxb-runtime:2.3.2 (*)
+     |    |         +--- com.google.jimfs:jimfs:1.1
+     |    |         |    \--- com.google.guava:guava:18.0 -> 30.1-jre (*)
+     |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    +--- com.android.tools.build:builder-test-api:7.0.3
+     |    |    +--- com.android.tools.ddms:ddmlib:30.0.3
+     |    |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+     |    |    |    \--- com.google.protobuf:protobuf-java:3.10.0
+     |    |    +--- com.android.tools:annotations:30.0.3
+     |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    \--- com.google.guava:guava:30.1-jre (*)
+     |    +--- com.android.tools.build:builder-model:7.0.3
+     |    |    +--- com.android.tools:annotations:30.0.3
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    +--- com.android.tools.ddms:ddmlib:30.0.3 (*)
+     |    +--- com.android.tools.layoutlib:layoutlib-api:30.0.3 (*)
+     |    +--- com.android.tools:common:30.0.3 (*)
+     |    +--- com.android.tools.analytics-library:shared:30.0.3 (*)
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56
+     |    |    \--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    +--- com.google.guava:guava:30.1-jre (*)
+     |    +--- org.glassfish.jaxb:jaxb-runtime:2.3.2 (*)
+     |    +--- com.google.code.gson:gson:2.8.6
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.4.32
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.32 (*)
+     |    +--- com.google.protobuf:protobuf-java:3.10.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- net.sf.kxml:kxml2:2.3.0
+     |    +--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+     |    +--- com.android.tools.build:aapt2-proto:4.1.0-alpha01-6193524
+     |    |    \--- com.google.protobuf:protobuf-java:3.10.0
+     |    \--- xerces:xercesImpl:2.12.0
+     |         \--- xml-apis:xml-apis:1.4.01
+     +--- com.android.tools:sdklib:30.0.3 (*)
+     +--- com.android.tools:common:30.0.3 (*)
+     +--- com.android.tools.build:builder:7.0.3
+     |    +--- com.android.tools.build:builder-model:7.0.3 (*)
+     |    +--- com.android.tools.build:builder-test-api:7.0.3 (*)
+     |    +--- com.android.tools:sdklib:30.0.3 (*)
+     |    +--- com.android.tools:sdk-common:30.0.3 (*)
+     |    +--- com.android.tools:common:30.0.3 (*)
+     |    +--- com.android.tools.ddms:ddmlib:30.0.3 (*)
+     |    +--- com.android:signflinger:7.0.3
+     |    |    +--- com.android.tools.build:apksig:7.0.3
+     |    |    +--- com.android:zipflinger:7.0.3
+     |    |    |    \--- com.android.tools:annotations:30.0.3
+     |    |    \--- com.android.tools:annotations:30.0.3
+     |    +--- com.android.tools.analytics-library:protos:30.0.3 (*)
+     |    +--- com.android.tools.analytics-library:tracker:30.0.3
+     |    |    +--- com.android.tools:annotations:30.0.3
+     |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    +--- com.google.protobuf:protobuf-java:3.10.0
+     |    |    +--- com.google.guava:guava:30.1-jre (*)
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    |    +--- com.android.tools.analytics-library:protos:30.0.3 (*)
+     |    |    \--- com.android.tools.analytics-library:shared:30.0.3 (*)
+     |    +--- com.android.tools.layoutlib:layoutlib-api:30.0.3 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+     |    +--- commons-codec:commons-codec:1.10
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.ow2.asm:asm:7.0
+     |    +--- org.ow2.asm:asm-tree:7.0
+     |    |    \--- org.ow2.asm:asm:7.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- org.ow2.asm:asm-commons:7.0
+     |    |    +--- org.ow2.asm:asm:7.0
+     |    |    +--- org.ow2.asm:asm-tree:7.0 (*)
+     |    |    \--- org.ow2.asm:asm-analysis:7.0
+     |    |         \--- org.ow2.asm:asm-tree:7.0 (*)
+     |    +--- org.ow2.asm:asm-util:7.0
+     |    |    +--- org.ow2.asm:asm:7.0
+     |    |    +--- org.ow2.asm:asm-tree:7.0 (*)
+     |    |    \--- org.ow2.asm:asm-analysis:7.0 (*)
+     |    +--- it.unimi.dsi:fastutil:8.4.0
+     |    +--- net.sf.jopt-simple:jopt-simple:4.9
+     |    +--- com.googlecode.json-simple:json-simple:1.1
+     |    +--- com.android.tools.build:manifest-merger:30.0.3
+     |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    +--- com.android.tools:sdklib:30.0.3 (*)
+     |    |    +--- com.android.tools:sdk-common:30.0.3 (*)
+     |    |    +--- com.google.code.gson:gson:2.8.6
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    |    \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android:zipflinger:7.0.3 (*)
+     |    +--- com.android.tools.build:apksig:7.0.3
+     |    +--- com.android.tools.build:apkzlib:7.0.3
+     |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.2
+     |    |    +--- com.google.guava:guava:23.0 -> 30.1-jre (*)
+     |    |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+     |    |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    |    \--- com.android.tools.build:apksig:7.0.3
+     |    \--- com.squareup:javawriter:2.5.0
+     +--- com.android.tools.build:builder-model:7.0.3 (*)
+     +--- com.android.tools.external.com-intellij:intellij-core:30.0.3
+     |    \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+     +--- com.android.tools.external.com-intellij:kotlin-compiler:30.0.3
+     +--- com.android.tools.external.org-jetbrains:uast:30.0.3
+     +--- com.android.tools.build:manifest-merger:30.0.3 (*)
+     +--- com.android.tools.lint:lint:30.0.3
+     |    +--- com.android.tools.external.org-jetbrains:uast:30.0.3
+     |    +--- com.android.tools:sdk-common:30.0.3 (*)
+     |    +--- com.android.tools:sdklib:30.0.3 (*)
+     |    +--- com.android.tools:common:30.0.3 (*)
+     |    +--- com.android.tools.external.com-intellij:kotlin-compiler:30.0.3
+     |    +--- com.android.tools.external.com-intellij:intellij-core:30.0.3 (*)
+     |    +--- com.android.tools.build:manifest-merger:30.0.3 (*)
+     |    +--- com.android.tools.layoutlib:layoutlib-api:30.0.3 (*)
+     |    +--- com.android.tools.analytics-library:shared:30.0.3 (*)
+     |    +--- com.android.tools.analytics-library:protos:30.0.3 (*)
+     |    +--- com.android.tools.analytics-library:tracker:30.0.3 (*)
+     |    +--- com.google.guava:guava:30.1-jre (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.4.32 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    +--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.lint:lint-api:30.0.3
+     |    |    +--- com.android.tools.build:builder-model:7.0.3 (*)
+     |    |    +--- com.google.guava:guava:30.1-jre (*)
+     |    |    +--- com.android.tools:sdk-common:30.0.3 (*)
+     |    |    +--- com.android.tools:sdklib:30.0.3 (*)
+     |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    +--- com.android.tools.lint:lint-model:30.0.3
+     |    |    |    +--- com.android.tools:common:30.0.3 (*)
+     |    |    |    +--- com.android.tools:sdk-common:30.0.3 (*)
+     |    |    |    +--- com.android.tools.build:builder-model:7.0.3 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    |    |    \--- net.sf.kxml:kxml2:2.3.0
+     |    |    +--- com.android.tools.external.com-intellij:intellij-core:30.0.3 (*)
+     |    |    +--- com.android.tools.external.com-intellij:kotlin-compiler:30.0.3
+     |    |    +--- com.android.tools.external.org-jetbrains:uast:30.0.3
+     |    |    +--- com.android.tools.build:manifest-merger:30.0.3 (*)
+     |    |    +--- com.android.tools.layoutlib:layoutlib-api:30.0.3 (*)
+     |    |    +--- commons-io:commons-io:2.4
+     |    |    +--- org.ow2.asm:asm:7.0
+     |    |    +--- org.ow2.asm:asm-tree:7.0 (*)
+     |    |    +--- net.sf.kxml:kxml2:2.3.0
+     |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.4.32 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     |    \--- com.android.tools.lint:lint-checks:30.0.3
+     |         +--- com.android.tools:sdk-common:30.0.3 (*)
+     |         +--- com.android.tools:sdklib:30.0.3 (*)
+     |         +--- com.android.tools:common:30.0.3 (*)
+     |         +--- com.android.tools.layoutlib:layoutlib-api:30.0.3 (*)
+     |         +--- com.google.guava:guava:30.1-jre (*)
+     |         +--- com.google.code.gson:gson:2.8.6
+     |         +--- com.android.tools.external.com-intellij:intellij-core:30.0.3 (*)
+     |         +--- com.android.tools.external.com-intellij:kotlin-compiler:30.0.3
+     |         +--- com.android.tools.external.org-jetbrains:uast:30.0.3
+     |         +--- org.ow2.asm:asm-analysis:7.0 (*)
+     |         +--- net.sf.kxml:kxml2:2.3.0
+     |         +--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+     |         +--- com.android.tools.lint:lint-api:30.0.3 (*)
+     |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+     +--- com.android:zipflinger:7.0.3 (*)
+     +--- com.android.tools:repository:30.0.3 (*)
+     +--- org.codehaus.groovy:groovy-all:3.0.7
+     |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-ant:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    +--- org.apache.ant:ant:1.10.9
+     |    |    |    \--- org.apache.ant:ant-launcher:1.10.9
+     |    |    +--- org.apache.ant:ant-junit:1.10.9
+     |    |    |    \--- org.apache.ant:ant:1.10.9 (*)
+     |    |    +--- org.apache.ant:ant-launcher:1.10.9
+     |    |    +--- org.apache.ant:ant-antlr:1.10.9
+     |    |    \--- org.codehaus.groovy:groovy-groovydoc:3.0.7
+     |    |         +--- org.codehaus.groovy:groovy:3.0.7
+     |    |         +--- com.github.javaparser:javaparser-core:3.17.0
+     |    |         +--- org.codehaus.groovy:groovy-templates:3.0.7
+     |    |         |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |         |    \--- org.codehaus.groovy:groovy-xml:3.0.7
+     |    |         |         \--- org.codehaus.groovy:groovy:3.0.7
+     |    |         \--- org.codehaus.groovy:groovy-docgenerator:3.0.7
+     |    |              +--- org.codehaus.groovy:groovy-templates:3.0.7 (*)
+     |    |              +--- org.codehaus.groovy:groovy:3.0.7
+     |    |              \--- com.thoughtworks.qdox:qdox:1.12.1
+     |    +--- org.codehaus.groovy:groovy-astbuilder:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-cli-picocli:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    \--- info.picocli:picocli:4.5.2
+     |    +--- org.codehaus.groovy:groovy-console:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy-templates:3.0.7 (*)
+     |    |    \--- org.codehaus.groovy:groovy-swing:3.0.7
+     |    |         \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-datetime:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-docgenerator:3.0.7 (*)
+     |    +--- org.codehaus.groovy:groovy-groovydoc:3.0.7 (*)
+     |    +--- org.codehaus.groovy:groovy-groovysh:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy-templates:3.0.7 (*)
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy-console:3.0.7 (*)
+     |    |    +--- org.codehaus.groovy:groovy-xml:3.0.7 (*)
+     |    |    \--- jline:jline:2.14.6
+     |    +--- org.codehaus.groovy:groovy-jmx:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-json:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-jsr223:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-macro:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-nio:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-servlet:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy-templates:3.0.7 (*)
+     |    |    \--- org.codehaus.groovy:groovy-xml:3.0.7 (*)
+     |    +--- org.codehaus.groovy:groovy-sql:3.0.7
+     |    |    \--- org.codehaus.groovy:groovy:3.0.7
+     |    +--- org.codehaus.groovy:groovy-swing:3.0.7 (*)
+     |    +--- org.codehaus.groovy:groovy-templates:3.0.7 (*)
+     |    +--- org.codehaus.groovy:groovy-test:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    \--- junit:junit:4.13.1
+     |    |         \--- org.hamcrest:hamcrest-core:1.3
+     |    +--- org.codehaus.groovy:groovy-test-junit5:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    +--- org.junit.jupiter:junit-jupiter-api:5.7.0
+     |    |    |    +--- org.junit:junit-bom:5.7.0
+     |    |    |    |    +--- org.junit.jupiter:junit-jupiter-api:5.7.0 (c)
+     |    |    |    |    +--- org.junit.jupiter:junit-jupiter-engine:5.7.0 (c)
+     |    |    |    |    +--- org.junit.platform:junit-platform-engine:1.7.0 (c)
+     |    |    |    |    +--- org.junit.platform:junit-platform-launcher:1.7.0 (c)
+     |    |    |    |    \--- org.junit.platform:junit-platform-commons:1.7.0 (c)
+     |    |    |    +--- org.opentest4j:opentest4j:1.2.0
+     |    |    |    \--- org.junit.platform:junit-platform-commons:1.7.0
+     |    |    |         \--- org.junit:junit-bom:5.7.0 (*)
+     |    |    +--- org.junit.platform:junit-platform-launcher:1.7.0
+     |    |    |    +--- org.junit:junit-bom:5.7.0 (*)
+     |    |    |    \--- org.junit.platform:junit-platform-engine:1.7.0
+     |    |    |         +--- org.junit:junit-bom:5.7.0 (*)
+     |    |    |         +--- org.opentest4j:opentest4j:1.2.0
+     |    |    |         \--- org.junit.platform:junit-platform-commons:1.7.0 (*)
+     |    |    \--- org.junit.jupiter:junit-jupiter-engine:5.7.0
+     |    |         +--- org.junit:junit-bom:5.7.0 (*)
+     |    |         +--- org.junit.platform:junit-platform-engine:1.7.0 (*)
+     |    |         \--- org.junit.jupiter:junit-jupiter-api:5.7.0 (*)
+     |    +--- org.codehaus.groovy:groovy-testng:3.0.7
+     |    |    +--- org.codehaus.groovy:groovy:3.0.7
+     |    |    \--- org.testng:testng:7.3.0
+     |    |         \--- com.beust:jcommander:1.78
+     |    \--- org.codehaus.groovy:groovy-xml:3.0.7 (*)
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.4.32 (*)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32 (*)
+
+lintPublish - Configuration to publish external lint check jar
+No dependencies
+
+releaseAabPublication - Bundle Publication for release (n)
+No dependencies
+
+releaseAnnotationProcessor - Classpath for the annotation processor for 'release'. (n)
+No dependencies
+
+releaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: release
+No dependencies
+
+releaseApi - API dependencies for 'release' sources. (n)
+No dependencies
+
+releaseApiElements - API elements for release (n)
+No dependencies
+
+releaseApkPublication - APK publication for release (n)
+No dependencies
+
+releaseCompileClasspath - Resolved configuration for compilation for variant: release
++--- com.tencent.shadow.core:runtime -> project :core:runtime
++--- com.tencent.shadow.core:activity-container -> project :core:activity-container
++--- com.tencent.shadow.core:common -> project :core:common
++--- com.tencent.shadow.dynamic:dynamic-host -> project :dynamic:dynamic-host
+|    \--- project :dynamic:dynamic-apk
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    \--- project :core:load-parameters
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+\--- project :sample-constant
+
+releaseCompileOnly - Compile only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseImplementation - Implementation only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseReverseMetadataValues - Metadata Values dependencies for the base Split
+No dependencies
+
+releaseRuntimeClasspath - Resolved configuration for runtime for variant: release
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    +--- project :core:load-parameters
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31
+|    |         +--- org.jetbrains:annotations:13.0
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
+|    \--- com.tencent.shadow.coding:java-build-config -> project :coding:java-build-config
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31 (*)
+|    \--- com.tencent.shadow.core:loader -> project :core:loader (*)
+\--- project :sample-constant
+
+releaseRuntimeElements - Runtime elements for release (n)
+No dependencies
+
+releaseRuntimeOnly - Runtime only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: releaseUnitTest
+No dependencies
+
+releaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: releaseUnitTest
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    \--- project :core:load-parameters
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
++--- project :sample-constant
+\--- project :sample-loader (*)
+
+releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: releaseUnitTest
++--- project :sample-loader (*)
++--- com.tencent.shadow.core:loader -> project :core:loader
+|    +--- project :core:runtime
+|    +--- project :core:load-parameters
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31
+|    |         +--- org.jetbrains:annotations:13.0
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
+|    \--- com.tencent.shadow.coding:java-build-config -> project :coding:java-build-config
++--- com.tencent.shadow.dynamic:dynamic-loader -> project :dynamic:dynamic-loader
++--- com.tencent.shadow.dynamic:dynamic-loader-impl -> project :dynamic:dynamic-loader-impl
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31 (*)
+|    \--- com.tencent.shadow.core:loader -> project :core:loader (*)
+\--- project :sample-constant
+
+releaseWearApp - Link to a wear app to embed for object 'release'. (n)
+No dependencies
+
+releaseWearBundling - Resolved Configuration for wear app bundling for variant: release
+No dependencies
+
+runtimeOnly - Runtime only dependencies for 'main' sources. (n)
+No dependencies
+
+testAnnotationProcessor - Classpath for the annotation processor for 'test'. (n)
+No dependencies
+
+testCompileOnly - Compile only dependencies for 'test' sources. (n)
+No dependencies
+
+testDebugAnnotationProcessor - Classpath for the annotation processor for 'testDebug'. (n)
+No dependencies
+
+testDebugCompileOnly - Compile only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugImplementation - Implementation only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugRuntimeOnly - Runtime only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugWearApp - Link to a wear app to embed for object 'testDebug'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for 'test' sources. (n)
+No dependencies
+
+testReleaseAnnotationProcessor - Classpath for the annotation processor for 'testRelease'. (n)
+No dependencies
+
+testReleaseCompileOnly - Compile only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseImplementation - Implementation only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseRuntimeOnly - Runtime only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseWearApp - Link to a wear app to embed for object 'testRelease'. (n)
+No dependencies
+
+testRuntimeOnly - Runtime only dependencies for 'test' sources. (n)
+No dependencies
+
+testWearApp - Link to a wear app to embed for object 'test'. (n)
+No dependencies
+
+wearApp - Link to a wear app to embed for object 'main'. (n)
+No dependencies
+
+(c) - dependency constraint
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/7.0.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed

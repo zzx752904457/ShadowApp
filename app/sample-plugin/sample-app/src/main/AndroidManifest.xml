@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.shadow.sample.plugin.app.lib">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <application
+        android:name=".UseCaseApplication"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name=".usecases.host_communication.PluginEventBusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usecases.host_communication.PluginSpActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="test_meta"
+            android:value="test_value" />
+
+        <activity android:name=".usecases.activity.TestActivityReCreate" />
+        <activity android:name=".usecases.activity.TestActivitySetTheme" />
+        <activity android:name=".usecases.activity.TestActivityOptionMenu" />
+        <activity android:name=".usecases.activity.TestActivityOnCreate" />
+        <activity
+            android:name=".usecases.activity.TestActivityOrientation"
+            android:configChanges="orientation|screenSize|fontScale"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".usecases.activity.TestActivityWindowSoftMode"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".usecases.provider.TestDBContentProviderActivity" />
+        <activity android:name=".usecases.activity.TestActivityReCreateBySystem" />
+        <activity android:name=".usecases.receiver.TestReceiverActivity" />
+        <activity android:name=".usecases.receiver.TestDynamicReceiverActivity" />
+        <activity android:name=".usecases.fragment.TestDynamicFragmentActivity" />
+        <activity android:name=".usecases.fragment.TestXmlFragmentActivity" />
+        <activity android:name=".usecases.dialog.TestDialogActivity" />
+        <activity android:name=".usecases.packagemanager.TestPackageManagerActivity" />
+
+        <receiver android:name=".usecases.receiver.MyReceiver">
+            <intent-filter>
+                <action android:name="com.tencent.test.action" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".usecases.provider.TestFileProviderActivity" />
+        <activity android:name=".usecases.application.TestApplicationActivity" />
+        <activity android:name=".usecases.context.ActivityContextSubDirTestActivity" />
+        <activity android:name=".usecases.context.ApplicationContextSubDirTestActivity" />
+        <activity android:name=".usecases.host_communication.PluginUseHostClassActivity" />
+        <activity android:name=".usecases.webview.WebViewActivity" />
+        <activity android:name=".usecases.fragment.TestDialogFragmentActivity" />
+
+        <provider
+            android:name=".usecases.provider.TestProvider"
+            android:authorities="${applicationId}.provider.test" />
+
+        <service android:name=".usecases.service.HostAddPluginViewService" />
+        <service android:name=".usecases.service.HostGetPluginFragmentService" />
+    </application>
+
+</manifest>

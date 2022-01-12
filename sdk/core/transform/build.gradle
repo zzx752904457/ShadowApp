@@ -1,0 +1,19 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    api project(':transform-kit')
+    testImplementation 'junit:junit:4.12'
+    testImplementation project(path: ':transform-kit', configuration: 'tests')
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.6"
+    }
+}
+
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.6"
+    }
+}

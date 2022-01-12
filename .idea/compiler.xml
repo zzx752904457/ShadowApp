@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="coding.android-jar" target="1.7" />
+      <module name="coding.java-build-config" target="1.7" />
+      <module name="core.activity-container" target="1.7" />
+      <module name="core.common" target="1.7" />
+      <module name="core.load-parameters" target="1.7" />
+      <module name="core.loader" target="1.7" />
+      <module name="core.manager" target="1.7" />
+      <module name="core.runtime" target="1.7" />
+      <module name="core.utils" target="1.7" />
+      <module name="dynamic.dynamic-apk" target="1.7" />
+      <module name="dynamic.dynamic-host" target="1.7" />
+      <module name="dynamic.dynamic-host-multi-loader-ext" target="1.7" />
+      <module name="dynamic.dynamic-loader" target="1.7" />
+      <module name="dynamic.dynamic-loader-impl" target="1.7" />
+      <module name="dynamic.dynamic-manager" target="1.7" />
+      <module name="dynamic.dynamic-manager-multi-loader-ext" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

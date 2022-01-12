@@ -1,0 +1,51 @@
+import java.nio.file.Files
+
+rootProject.name = "ShadowApp"
+
+copyLocalPropertiesForIncludeBuilds()
+includeBuild 'sdk/coding'
+includeBuild 'sdk/core'
+includeBuild 'sdk/dynamic'
+
+include 'sample-constant',
+        'sample-host',
+        'sample-host-lib',
+        'sample-manager',
+        'sample-loader',
+        'sample-runtime',
+        'pinnedheaderexpandablelistview',
+        'slidingmenu',
+        'sample-base-lib',
+        'sample-base',
+        'sample-app',
+        'common-lib'
+project(':sample-constant').projectDir = file('app/sample-constant')
+project(':sample-host').projectDir = file('app/sample-host')
+project(':sample-host-lib').projectDir = file('app/sample-host-lib')
+project(':sample-manager').projectDir = file('app/sample-manager')
+project(':sample-loader').projectDir = file('app/sample-plugin/sample-loader')
+project(':sample-runtime').projectDir = file('app/sample-plugin/sample-runtime')
+project(':pinnedheaderexpandablelistview').projectDir = file('app/sample-plugin/third-party/pinnedheaderexpandablelistview')
+project(':slidingmenu').projectDir = file('app/sample-plugin/third-party/slidingmenu')
+project(':sample-base-lib').projectDir = file('app/sample-plugin/sample-base-lib')
+project(':sample-base').projectDir = file('app/sample-plugin/sample-base')
+project(':sample-app').projectDir = file('app/sample-plugin/sample-app')
+project(':common-lib').projectDir = file('app/common-lib')
+
+/**
+ * Android Studio当前不会为IncludeBuild创建包含sdk.dir的local.properties
+ * 使得没有ANDROID_HOME或等效环境变量时仅依赖根目录的local.properties无法编译IncludeBuild。
+ * 为了使此含有IncludeBuild的项目和其他不含有IncludeBuild的普通Android工程一样可以在
+ * 只有根目录的local.properties情况下正常编译，用此任务复制local.properties。
+ */
+def copyLocalPropertiesForIncludeBuilds() {
+    def rootFile = file('local.properties')
+    if (rootFile.exists()) {
+        ['coding', 'core', 'dynamic'].forEach {
+            def includeBuildFile = file("sdk/${it}/local.properties")
+            if (!includeBuildFile.exists()) {
+                Files.copy(rootFile.toPath(), includeBuildFile.toPath())
+            }
+        }
+    }
+}
