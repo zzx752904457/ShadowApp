@@ -31,7 +31,7 @@ public class PluginSpActivity extends Activity {
                 return;
             }
             // 插件自身保存
-            getSharedPreferences("plugin_sp", Context.MODE_PRIVATE).edit().putString(CommonConstants.PREF_KEY_CITY, cityValue).apply();
+            getSharedPreferences("plugin_sp", Context.MODE_PRIVATE).edit().putString(CommonConstants.PREF_KEY_PLUG_CITY, cityValue).apply();
         });
     }
 }

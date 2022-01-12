@@ -22,17 +22,24 @@ import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
 import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
 import android.os.StrictMode;
+import android.view.View;
 import android.webkit.WebView;
+import android.widget.Toast;
 
 import com.tencent.shadow.core.common.LoggerFactory;
 import com.tencent.shadow.dynamic.host.DynamicRuntime;
+import com.tencent.shadow.dynamic.host.EnterCallback;
 import com.tencent.shadow.dynamic.host.PluginManager;
+import com.tencent.shadow.sample.constant.Constant;
 import com.tencent.shadow.sample.host.lib.HostEventBusReceiver;
 import com.tencent.shadow.sample.host.lib.HostInfoProvider;
 import com.tencent.shadow.sample.host.manager.Shadow;
 
 import java.io.File;
+import java.util.function.Function;
 
 import static android.os.Process.myPid;
 
@@ -103,5 +110,15 @@ public class HostApplication extends Application {
         }
 
         return currentProcName.endsWith(processName);
+    }
+
+    public void initPlugin(EnterCallback callback) {
+        HostApplication.getApp().loadPluginManager(PluginHelper.getInstance().pluginManagerFile);
+        Bundle bundle = new Bundle();
+        bundle.putString(Constant.KEY_PLUGIN_ZIP_PATH, PluginHelper.getInstance().pluginZipFile.getAbsolutePath());
+        PluginHelper.getInstance().singlePool.execute(() -> {
+            HostApplication.getApp().getPluginManager()
+                    .enter(getApplicationContext(), Constant.FROM_ID_INIT_PLUGIN, bundle, callback);
+        });
     }
 }

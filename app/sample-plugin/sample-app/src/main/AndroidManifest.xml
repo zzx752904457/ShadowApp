@@ -60,6 +60,8 @@
 
         <service android:name=".usecases.service.HostAddPluginViewService" />
         <service android:name=".usecases.service.HostGetPluginFragmentService" />
+        <service android:name=".usecases.service.HostOperatePluginMMKVService" />
+        <service android:name=".usecases.service.HostPostEventBusService" />
     </application>
 
 </manifest>

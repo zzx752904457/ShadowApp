@@ -11,7 +11,7 @@
         android:id="@+id/et_sp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textColor="#fff"
+        android:textColor="#333"
         android:layout_marginTop="20dp"
         android:hint="请输入要保存到插件的sp值"/>
 

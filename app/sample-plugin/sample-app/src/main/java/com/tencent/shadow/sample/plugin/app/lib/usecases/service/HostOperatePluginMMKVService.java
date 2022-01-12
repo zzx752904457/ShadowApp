@@ -9,6 +9,7 @@ import android.os.Looper;
 
 import androidx.annotation.Nullable;
 
+import com.common.lib.CommonConstants;
 import com.tencent.shadow.sample.host.lib.HostContainerHolder;
 import com.tencent.shadow.sample.host.lib.HostGetPluginMMKVContainer;
 
@@ -21,18 +22,15 @@ public class HostOperatePluginMMKVService extends IntentService {
     }
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
-        Bundle bundle = intent.getExtras();
-        Set<String> keys = bundle.keySet();
-        for (String key: keys) {
-                HostGetPluginMMKVContainer mmkvContainer
-                        = HostContainerHolder.mmkvInstances.remove(key);
-                if (mmkvContainer != null) {
-                    // 读取插件sp中的值
-                    Object value = getApplicationContext().getSharedPreferences("plugin_sp", Context.MODE_PRIVATE).getString(key, "");
-                    uiHandler.post(() -> {
-                        mmkvContainer.getMMKVValue(value);
-                    });
-                }
+        String key = CommonConstants.PREF_KEY_PLUG_CITY;
+        HostGetPluginMMKVContainer mmkvContainer
+                = HostContainerHolder.mmkvInstances.remove(key);
+        if (mmkvContainer != null) {
+            // 读取插件sp中的值
+            Object value = getApplicationContext().getSharedPreferences("plugin_sp", Context.MODE_PRIVATE).getString(key, "");
+            uiHandler.post(() -> {
+                mmkvContainer.getMMKVValue(value);
+            });
         }
     }
 }

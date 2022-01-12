@@ -72,7 +72,7 @@ public class SamplePluginManager extends FastPluginManager {
     @Override
     public void enter(final Context context, long fromId, Bundle bundle, final EnterCallback callback) {
         if (fromId == Constant.FROM_ID_INIT_PLUGIN) {
-            initPlugin(bundle);
+            initPlugin(bundle, callback);
         } else if (fromId == Constant.FROM_ID_NOOP) {
             //do nothing.
         } else if (fromId == Constant.FROM_ID_START_ACTIVITY) {
@@ -93,7 +93,7 @@ public class SamplePluginManager extends FastPluginManager {
     }
 
     // 初始化插件
-    private void initPlugin(Bundle bundle) {
+    private void initPlugin(Bundle bundle, EnterCallback callback) {
         executorService.execute(() -> {
             try {
                 final String pluginZipPath = bundle.getString(Constant.KEY_PLUGIN_ZIP_PATH);
@@ -102,6 +102,7 @@ public class SamplePluginManager extends FastPluginManager {
                 loadPlugin(installedPlugin.UUID, Constant.PART_KEY_PLUGIN_MAIN_APP);
                 callApplicationOnCreate(Constant.PART_KEY_PLUGIN_BASE);
                 callApplicationOnCreate(Constant.PART_KEY_PLUGIN_MAIN_APP);
+                callback.onEnterComplete();
             }catch (Exception e) {
                 throw new RuntimeException(e);
             }

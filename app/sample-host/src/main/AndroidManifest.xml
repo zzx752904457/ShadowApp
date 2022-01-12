@@ -84,12 +84,11 @@
         </activity>
 
         <activity
-            android:name=".plugin_view.HostAddPluginViewActivity"
-            android:process=":plugin" />
+            android:name=".plugin_view.HostAddPluginViewActivity" />
 
         <activity
             android:name=".plugin_fragment.HostGetPluginFragmentActivity"
-            android:process=":plugin" />
+            android:screenOrientation="portrait" />
 
         <provider
             android:name="com.tencent.shadow.core.runtime.container.PluginContainerContentProvider"
@@ -99,8 +98,7 @@
 
         <!--控制插件activity所在进程的服务，可以同一个进程，也可以多进程-->
         <service
-            android:name="com.tencent.shadow.sample.host.PluginProcessPPS"
-            android:process=":plugin" />
+            android:name="com.tencent.shadow.sample.host.PluginProcessPPS" />
         <service
             android:name="com.tencent.shadow.sample.host.Plugin2ProcessPPS"
             android:process=":plugin2" />

@@ -44,7 +44,6 @@ public class HostSpActivity extends Activity {
 
                         @Override
                         public void onCloseLoadingView() {
-                            finish();
                         }
 
                         @Override
@@ -59,22 +58,14 @@ public class HostSpActivity extends Activity {
     }
 
     private void loadPluginSp() {
-        HostContainerHolder.mmkvInstances.put(CommonConstants.PREF_KEY_CITY, value -> {
+        HostContainerHolder.mmkvInstances.put(CommonConstants.PREF_KEY_PLUG_CITY, value -> {
             Toast.makeText(HostSpActivity.this, value.toString(), Toast.LENGTH_SHORT).show();
         });
-        //当是多进程时，不能直接操作主进程的manager对象，所以通过一个广播调用manager。
-        Intent intent = new Intent();
-        intent.setPackage(getPackageName());
-        intent.putExtra("fromId", Constant.FROM_ID_MMKV);
-        intent.putExtra(CommonConstants.PREF_KEY_PLUG_CITY, "");
-        intent.setAction("sample_host.manager.startPluginService");
-        sendBroadcast(intent);
-
         // 当是单进程时，可以直接使用主进程的manager对象
-//        Bundle bundle = new Bundle();
-//        bundle.putInt("fromId", Constant.FROM_ID_MMKV);
-//        bundle.putString(CommonConstants.PREF_KEY_PLUG_CITY, "");
-//        HostApplication.getApp().getPluginManager()
-//                .enter(this, Constant.FROM_ID_MMKV, bundle, null);
+        Bundle bundle = new Bundle();
+        bundle.putInt("fromId", Constant.FROM_ID_MMKV);
+        bundle.putString(CommonConstants.PREF_KEY_PLUG_CITY, "");
+        HostApplication.getApp().getPluginManager()
+                .enter(this, Constant.FROM_ID_MMKV, bundle, null);
     }
 }

@@ -32,6 +32,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.tencent.shadow.dynamic.host.EnterCallback;
 import com.tencent.shadow.sample.constant.Constant;
@@ -56,7 +57,22 @@ public class MainActivity extends Activity {
 
         // 先点击该按钮加载插件
         findViewById(R.id.btn_init_plugin).setOnClickListener(v -> {
-            initPlugin();
+            HostApplication.getApp().initPlugin(new EnterCallback() {
+                @Override
+                public void onShowLoadingView(View view) {
+                }
+
+                @Override
+                public void onCloseLoadingView() {
+                }
+
+                @Override
+                public void onEnterComplete() {
+                    runOnUiThread(() -> {
+                        Toast.makeText(getApplicationContext(), "插件加载成功", Toast.LENGTH_SHORT).show();
+                    });
+                }
+            });
         });
 
         // 加载插件activity
@@ -110,29 +126,6 @@ public class MainActivity extends Activity {
             }
         }
     }
-
-    private void initPlugin() {
-        HostApplication.getApp().loadPluginManager(PluginHelper.getInstance().pluginManagerFile);
-        Bundle bundle = new Bundle();
-        bundle.putString(Constant.KEY_PLUGIN_ZIP_PATH, PluginHelper.getInstance().pluginZipFile.getAbsolutePath());
-        PluginHelper.getInstance().singlePool.execute(() -> {
-            HostApplication.getApp().getPluginManager()
-                    .enter(MainActivity.this, Constant.FROM_ID_INIT_PLUGIN, bundle, new EnterCallback() {
-                        @Override
-                        public void onShowLoadingView(View view) {
-                        }
-
-                        @Override
-                        public void onCloseLoadingView() {
-                        }
-
-                        @Override
-                        public void onEnterComplete() {
-                        }
-                    });
-        });
-    }
-
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
