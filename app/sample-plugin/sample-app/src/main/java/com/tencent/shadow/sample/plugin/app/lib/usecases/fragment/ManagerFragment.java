@@ -20,7 +20,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 public class ManagerFragment extends PluginFragment {
 
-    private AnimatorSet set = new AnimatorSet();
+    private final AnimatorSet set = new AnimatorSet();
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Log.e("ManagerFragment", "onCreateView");
