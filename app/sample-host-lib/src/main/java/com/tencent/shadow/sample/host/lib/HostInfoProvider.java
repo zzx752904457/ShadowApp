@@ -26,7 +26,7 @@ import com.common.lib.CommonConstants;
 
 /**
  * 这是一个将要打包到宿主中的类。作用：
- * 插件通过该类中的方法能获取宿主中的对象。
+ * 插件通过该类中的方法能获取宿主中的信息。
  */
 public class HostInfoProvider {
     private static HostInfoProvider sInstance;

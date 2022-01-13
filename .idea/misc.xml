@@ -5,6 +5,7 @@
       <map>
         <entry key="app/sample-host-lib/src/main/res/layout/host_ui_layer_layout.xml" value="0.296195652173913" />
         <entry key="app/sample-host/src/main/res/layout/activity_ap.xml" value="0.36822916666666666" />
+        <entry key="app/sample-host/src/main/res/layout/activity_host_event_bus.xml" value="0.25" />
         <entry key="app/sample-host/src/main/res/layout/activity_host_get_plugin_fragment.xml" value="0.3338541666666667" />
         <entry key="app/sample-host/src/main/res/layout/activity_load.xml" value="0.296195652173913" />
         <entry key="app/sample-host/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />

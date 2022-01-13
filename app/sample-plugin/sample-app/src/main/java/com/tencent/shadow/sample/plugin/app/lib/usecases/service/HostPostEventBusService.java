@@ -6,6 +6,7 @@ import android.content.Intent;
 import androidx.annotation.Nullable;
 
 import com.common.lib.GloballLocationBean;
+import com.common.lib.UserLoginStateEvent;
 import com.google.gson.Gson;
 
 import org.greenrobot.eventbus.EventBus;
@@ -27,10 +28,10 @@ public class HostPostEventBusService extends IntentService {
             JSONObject object = new JSONObject(eventBusConfig);
             String key = object.optString("key");
             switch (key) {
-                case "changeAddress" : {
+                case "loginStatus" : {
                     JSONObject value = object.optJSONObject("value");
                     Gson gson = new Gson();
-                    GloballLocationBean bean = gson.fromJson(value.toString(), GloballLocationBean.class);
+                    UserLoginStateEvent bean = gson.fromJson(value.toString(), UserLoginStateEvent.class);
                     EventBus.getDefault().post(bean);
                 }
                 break;

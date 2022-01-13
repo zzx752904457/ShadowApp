@@ -72,7 +72,7 @@
         android:name="com.tencent.shadow.sample.host.HostApplication"
         android:allowBackup="true"
         android:label="Shadow宿主App"
-        android:theme="@android:style/Theme.DeviceDefault.Light"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.tencent.shadow.sample.host.MainActivity">
@@ -108,7 +108,10 @@
             android:launchMode="standard"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HostSpActivity"
+            android:name=".plugin_sp.HostSpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".plugin_event.HostEventBusActivity"
             android:screenOrientation="portrait" />
 
         <!--dynamic activity注册

@@ -28,15 +28,14 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.tencent.shadow.dynamic.host.EnterCallback;
 import com.tencent.shadow.sample.constant.Constant;
+import com.tencent.shadow.sample.host.plugin_event.HostEventBusActivity;
 import com.tencent.shadow.sample.host.plugin_fragment.HostGetPluginFragmentActivity;
+import com.tencent.shadow.sample.host.plugin_sp.HostSpActivity;
 import com.tencent.shadow.sample.host.plugin_view.HostAddPluginViewActivity;
 
 
@@ -117,6 +116,11 @@ public class MainActivity extends Activity {
 
         findViewById(R.id.btn_sp).setOnClickListener(v -> {
             Intent intent = new Intent(this, HostSpActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.btn_event_bus).setOnClickListener(v -> {
+            Intent intent = new Intent(this, HostEventBusActivity.class);
             startActivity(intent);
         });
 

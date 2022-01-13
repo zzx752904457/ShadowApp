@@ -1,8 +1,7 @@
-package com.tencent.shadow.sample.host;
+package com.tencent.shadow.sample.host.plugin_sp;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -13,6 +12,8 @@ import android.widget.Toast;
 import com.common.lib.CommonConstants;
 import com.tencent.shadow.dynamic.host.EnterCallback;
 import com.tencent.shadow.sample.constant.Constant;
+import com.tencent.shadow.sample.host.HostApplication;
+import com.tencent.shadow.sample.host.R;
 import com.tencent.shadow.sample.host.lib.HostContainerHolder;
 
 public class HostSpActivity extends Activity {
@@ -37,19 +38,7 @@ public class HostSpActivity extends Activity {
             bundle.putString(Constant.KEY_ACTIVITY_CLASSNAME, "com.tencent.shadow.sample.plugin.app.lib.usecases.host_communication.PluginSpActivity");
 
             HostApplication.getApp().getPluginManager()
-                    .enter(HostSpActivity.this, Constant.FROM_ID_START_ACTIVITY, bundle, new EnterCallback() {
-                        @Override
-                        public void onShowLoadingView(final View view) {
-                        }
-
-                        @Override
-                        public void onCloseLoadingView() {
-                        }
-
-                        @Override
-                        public void onEnterComplete() {
-                        }
-                    });
+                    .enter(HostSpActivity.this, Constant.FROM_ID_START_ACTIVITY, bundle, null);
         });
 
         btnLoad.setOnClickListener(v -> {

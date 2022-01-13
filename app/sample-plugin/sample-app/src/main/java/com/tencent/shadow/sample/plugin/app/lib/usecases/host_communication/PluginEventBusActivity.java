@@ -1,7 +1,6 @@
 package com.tencent.shadow.sample.plugin.app.lib.usecases.host_communication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 
 import com.common.lib.EventBusJsonConfigBean;
@@ -12,7 +11,7 @@ import com.tencent.shadow.sample.plugin.app.lib.R;
 
 import org.greenrobot.eventbus.EventBus;
 
-public class PluginEventBusActivity extends AppCompatActivity {
+public class PluginEventBusActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
